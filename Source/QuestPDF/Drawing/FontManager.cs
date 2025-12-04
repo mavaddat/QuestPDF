@@ -12,8 +12,8 @@ namespace QuestPDF.Drawing
 {
     /// <summary>
     /// <para>By default, the library searches all fonts available in the runtime environment.</para>
-    /// <para>This may work well on the development environment but may fail in the cloud where fonts are usually not installed.</para>
-    /// <para>It is safest deploy font files along with the application and then register them using this class.</para>
+    /// <para>This can work well on the development environment, but fail in the cloud where fonts are usually not installed.</para>
+    /// <para>It is safest to deploy font files along with the application and then register them using this class.</para>
     /// </summary>
     public static class FontManager
     {
